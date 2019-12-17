@@ -16,7 +16,7 @@ A Flutter plugin for allowing users to authenticate with native Android &amp; iO
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
   s.ios.vendored_frameworks = ["Frameworks/TwitterKit.framework","Frameworks/TwitterCore.framework"]
-  s.resources = ['Frameworks/TwitterShareExtensionUIResources.bundle','Frameworks/TwitterKitResources.bundle']
+  s.resources = ['Frameworks/TwitterKitResources.bundle']
   
   s.ios.deployment_target = '11.0'
 end
